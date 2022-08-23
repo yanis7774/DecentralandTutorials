@@ -108,7 +108,7 @@ const realm = await getCurrentRealm()
 
 **10.** Create and checkout to the new branch with the name “heroku” and push it to the remote repo.
 
-Any time you will push to the heroku branch, it will trigger automation deployment to Heroku. 
+Any time you push to the heroku branch, it will trigger automation deployment to Heroku. 
 You can see the progress of the deployment on: 
 ```
 https://github.com/<your_github_name>/<name_of _repo>/actions
