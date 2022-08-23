@@ -1,7 +1,7 @@
 #### How to use Heroku & Github actions for Decentraland scene & server 
 
 
-
+This is a short tutorial, how to set up fast CD of your scene & server to Heroku (if you have both of them in one repository)
 
 
 **1.** First, we must have the scene and server we will deploy in the test environment. 
@@ -9,6 +9,7 @@ Make sure you can start it in the local environment without any issues.
 Create a root directory with two folders - scene and server.
 
 ![directory](src/images/directory.png)
+
 
 **2.** Init a git repository.
 Connect your local repo with the remote one. Push the changes. 
@@ -30,7 +31,9 @@ Let’s name it (we will need them later) :
 **5.** On the same page, you must set a global variable with the name PROJECT_PATH for the scene & the server folders.
 For both apps.
 ![](src/images/config_var_scene.png)
+
 ![](src/images/config_var_server.png)
+
 
 You may add any necessary variables. e.g. if you use a DB (as on pic above)
 
