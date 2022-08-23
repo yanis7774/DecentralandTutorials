@@ -10,8 +10,8 @@ Create a root directory with two folders - scene and server.
 
 ![directory](src/images/directory.png)
 
-**2.** Init a git repository and push it to the remote one. 
-Connect your local repo with remote. (I’ll not touch on some side themes like Git in this article)
+**2.** Init a git repository.
+Connect your local repo with the remote one. Push the changes. 
 
 **3.** Create two new Heroku apps. One for the scene and one for the server.
 Let’s name it (we will need them later) :
