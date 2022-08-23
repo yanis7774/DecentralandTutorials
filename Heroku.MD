@@ -4,22 +4,22 @@
 
 
 
-**1.** First, obviously, we have to have the scene, and server we will deploy in the test environment.
+**1.** First, we must have the scene and server we will deploy in the test environment. 
 Make sure you can start it in the local environment without any issues.
-
-Create a root directory with two folders - scene, and server.  
+Create a root directory with two folders - scene and server.
 
 ![directory](src/images/directory.png)
 
-**2.** Init a git repository and push it to the remote one. Connect your local repo with remote. (I’ll not touch on some side themes as Git in this article) 
+**2.** Init a git repository and push it to the remote one. 
+Connect your local repo with remote. (I’ll not touch on some side themes like Git in this article)
 
-**3.** Create two new Heroku apps. One for the scene, one for the server.
+**3.** Create two new Heroku apps. One for the scene and one for the server.
 Let’s name it (we will need them later) :
 - test-heroku-deploy-scene
 - test-heroku-deploy-server
 
 
-**4.** Go to the setting page of each app and add 2 build-packs:
+**4.** Go to the setting page of each app and add two build-packs:
 
 - https://github.com/timanovsky/subdir-heroku-buildpack (for deploying from subdirectories)
 - heroku/nodejs
